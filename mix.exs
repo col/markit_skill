@@ -7,7 +7,17 @@ defmodule MarkitSkill.Mixfile do
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
+     description: "Amazon Alexa skill that uses data from Markit.com",
+     package: package,
      deps: deps]
+  end
+
+  def package do
+    [
+      maintainers: ["Colin Harris"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/col/markit_skill"}
+    ]
   end
 
   # Configuration for the OTP application
