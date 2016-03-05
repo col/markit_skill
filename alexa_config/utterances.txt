@@ -1,0 +1,9 @@
+Lookup find {search_term}
+Lookup lookup {search_term}
+Lookup get the symbol for {search_term}
+Lookup the symbol for {search_term}
+
+Quote what's the {symbol} worth
+Quote what's the {symbol} worth today
+Quote how's' the {symbol} going
+Quote how's' the {symbol} going today

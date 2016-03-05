@@ -1,0 +1,25 @@
+{
+  "session": {
+    "new": false,
+    "sessionId": "session1234",
+    "attributes": {},
+    "user": null,
+    "application": {
+      "applicationId": "amzn1.echo-sdk-ams.app.313029af-27c6-47dd-bccc-8b0b1a888e0c"
+    }
+  },
+  "version": "1.0",
+  "request": {
+    "intent": {
+      "name": "Lookup",
+      "slots": {
+        "term": {
+          "name": "term",
+          "value": "Apple"
+        }
+      }
+    },
+    "type": "IntentRequest",
+    "requestId": "request5678"
+  }
+}

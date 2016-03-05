@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "Lookup",
+      "slots": [
+      	{
+        	"name": "term",
+	        "type": "LITERAL"
+      	}
+      ]
+    },
+    {
+      "intent": "Quote",
+      "slots": [
+        {
+          "name": "symbol",
+          "type": "COMPANY_SYMBOLS"
+        }
+      ]
+    }
+  ]
+}
